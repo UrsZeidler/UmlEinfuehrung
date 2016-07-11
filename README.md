@@ -2,16 +2,20 @@
 
 Eine kleine Einführung in Uml.
 
+UML ist eine Notationstechnik für die Objektorientierten (OO) Software Entwicklung.
+
 
 ## Historischer Abbriss
 
 UML als Unified Modeling Language war die Bestrebung die verschiedenen vorhandenen Graphischen Notationen zur beschreibung eines Software Systems zu vereinheitlichen und auf ein formalisiertes Fundament zu stellen. 
 
+![OO-historie](images/500px-OO-historie-2.png)
+
 Urspünglich handelt es sich um eine Initative von Grady Booch, Ivar Jacobson und James Rumbaugh, oft werden sie als die drei Amigos bezeichnet. Bei rational Software angestellt entwickelten sie die UML 1.0 um ihre eigenen, verschiedenen Methoden und Notationen zu vereinheitlichen.
 
 Diese vereinheitlichung wurde 1997 an die OMG (Object Management Group) übergeben und als Standart angenommen.
 
-![OO-historie](images/500px-OO-historie-2.png)
+
 
 ## Model und Metamodel
 
