@@ -15,38 +15,38 @@ Eine kleine Einführung in Uml.
 
 ### Strutur orientierte Diagramme
 
+Aufgabe der Struturorientierten Diagramme ist die Beschreibung des Aufbaus und der Teile aus denen das Software System besteht.
 
+#### das Klassendiagramm
 
-#### das Klassendiagramm,
+#### das Kompositionsstrukturdiagramm (auch: Montagediagramm)
 
-#### das Kompositionsstrukturdiagramm (auch: Montagediagramm),
+#### das Komponentendiagramm
 
-#### das Komponentendiagramm,
+#### das Verteilungsdiagramm
 
-#### das Verteilungsdiagramm,
+#### das Objektdiagramm
 
-#### das Objektdiagramm,
+#### das Paketdiagramm
 
-#### das Paketdiagramm und
-
-#### das Profildiagramm.
+#### das Profildiagramm
 
 
 ### Verhaltes orientierte Diagramme
 
+Aufgabe der Verhaltensorientieren Diagramme ist die Beschreibung der Verhaltensaspekte des Software Systems.
 
+#### das Aktivitätsdiagramm
 
-#### das Aktivitätsdiagramm,
+#### das Anwendungsfalldiagramm (auch: Use-Case o. Nutzfalldiagramm genannt)
 
-#### das Anwendungsfalldiagramm (auch: Use-Case o. Nutzfalldiagramm genannt),
+#### das Interaktionsübersichtsdiagramm
 
-#### das Interaktionsübersichtsdiagramm,
+#### das Kommunikationsdiagramm
 
-#### das Kommunikationsdiagramm,
+#### das Sequenzdiagramm
 
-#### das Sequenzdiagramm,
-
-#### das Zeitverlaufsdiagramm und
+#### das Zeitverlaufsdiagramm
 
 #### das Zustandsdiagramm.
 
