@@ -19,7 +19,7 @@ Diese Vereinheitlichung wurde 1997 an die OMG (Object Management Group) übergebe
 
 ## Model, Metamodel und Metametamodell (M0/M1/M2/M3)
 
-Uml als eine Notationssprache um Modelle (M1) zu definieren ist selbst in einer Modellsprache definiert. Diese Modellsprache (M3) wird MOF (Meta object facility) genannt. Dieser Systematische Ansatz trägt sowohl zur Eindeutigkeit der Syntaktik bei auch wird er wichtig für die Modelgetriebene Entwicklung und den aus ihr resultierenden Techniken der Modell und Code Transformationen.
+Uml, als eine Notationssprache um Modelle (M1) zu definieren, ist selbst in einer Modellsprache definiert. Diese Modellsprache (M3) wird MOF (Meta object facility) genannt. Dieser Systematische Ansatz trägt sowohl zur Eindeutigkeit der Syntaktik bei auch wird er wichtig für die Modelgetriebene Entwicklung und den aus ihr resultierenden Techniken der Modell und Code Transformationen.
 
 ![mm](images/500px-MetamodelHierarchy_de.png)
 
@@ -31,16 +31,17 @@ M2 – Mit dem M3, dem MOF, wird nun das Modell der UML beschrieben. Damit ist die
 
 M1 – In UML wird das zu entwerfende Modell beschreiben.
 
-M0 – Ist die Software selber. Die in dem Modell (M1) beschriebenen Entitäten (Klassen und deren Beziehungen) sind als Instanzen in der laufenden Software vorhanden. Sie sind jedoch nur ein Modell der Wirklichkeit und nicht die Wirklichkeit selbst. Als Beispiel ist der Kunde in einem CRM nicht der Kunde selber sondern nur eine Abbildung des Kunden mit den für den Anwendungsfall relevanten Attributen.
+M0 – Ist die Software selber. Die in dem Modell (M1) beschriebenen Entitäten (Klassen und deren Beziehungen) sind als Instanzen in der laufenden Software vorhanden. Sie sind jedoch nur ein Modell der Wirklichkeit und nicht die Wirklichkeit selbst. Als Beispiel ist der Kunde in einem CRM nicht der Kunde selber sondern nur eine Abbildung des Kunden mit den für den Anwendungsfall relevanten Attributen. Jede Software ist demnach ein Modell.
 
 
 
 ## Gliederung der verschieden Diagrammtypen
+Für die Modellierung verschiedenen Aspekte der Softwareentwicklung eignen sich nicht alle Diagrammformen, deshalb stellt die UML verschieden Diagramme bereit diese einzelnen Aspekte zu fassen. Grob unterteilen sie sich in Strukturelle und Verhaltes orientierte Diagramme. 
 
 
 ### Struktur orientierte Diagramme
 
-Aufgabe der Strukturorientierten Diagramme ist die Beschreibung des Aufbaus und der Teile aus denen das Software System besteht.
+Aufgabe der Strukturorientierten Diagramme ist die Beschreibung des Aufbaus und der Teile aus denen das Software System besteht und deren Beziehung zueinander.
 
 #### das Klassendiagramm
 
@@ -55,6 +56,16 @@ Aufgabe der Strukturorientierten Diagramme ist die Beschreibung des Aufbaus und 
 #### das Paketdiagramm
 
 #### das Profildiagramm
+
+Ein Profil ist die Möglichkeit UML, um Fachspezifische Eigenschaften, zu erweitern. So können Eigenschaften die nicht in UML vorgesehen sind in dem Modell spezifiziert werden. 
+
+Es ist ein recht einfaches Diagramm, das im Prinzip aus zwei Diagramm Elementen, den Stereotyp und der Metaklasse.
+
+Der Stereotype erweitert eine Metaklasse um Eigenschaften.
+Eine Metaklasse ist ein Modellelement aus dem UML Metamodel auf die ein Stereotype angewendet werden kann.
+
+![profil](images/contracts.profile.png)
+
 
 
 ### Verhaltes orientierte Diagramme
