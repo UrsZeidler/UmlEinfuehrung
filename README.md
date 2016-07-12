@@ -43,6 +43,16 @@ Für die Modellierung verschiedenen Aspekte der Softwareentwicklung eignen sich n
 
 Aufgabe der Strukturorientierten Diagramme ist die Beschreibung des Aufbaus und der Teile aus denen das Software System besteht und deren Beziehung zueinander.
 
+
+#### das Paketdiagramm
+
+Uml unterstützt Namspaces, Namesräume sind ein Konzept die Elemente in einer Baumartigen Struktur hierarchisch zu gliedern. Die meisten Objektorientierten Programmiersprachen unterstützen Namspaces, z.B. in java in Form der Packages.
+
+Das Packet Diagramm ist ein einfaches Diagramm mit nur einem elementaren Notationstypen, dem Packet. Zwischen Paketen können Beziehungen bestehen wie „include“ oder „Dependecies“.
+
+![package](images/party-dao-package.png)
+
+
 #### das Klassendiagramm
 
 #### das Kompositionsstrukturdiagramm (auch: Montagediagramm)
@@ -52,8 +62,6 @@ Aufgabe der Strukturorientierten Diagramme ist die Beschreibung des Aufbaus und 
 #### das Verteilungsdiagramm
 
 #### das Objektdiagramm
-
-#### das Paketdiagramm
 
 #### das Profildiagramm
 
