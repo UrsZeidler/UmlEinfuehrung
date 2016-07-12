@@ -17,11 +17,19 @@ Diese Vereinheitlichung wurde 1997 an die OMG (Object Management Group) übergebe
 
 
 
-## Model Metamodel und Metametamodell (M1/M2/M3)
+## Model, Metamodel und Metametamodell (M0/M1/M2/M3)
 
 Uml als eine Notationssprache um Modelle (M1) zu definieren ist selbst in einer Modellsprache definiert. Diese Modellsprache (M3) wird MOF (Meta object facility) genannt. Dieser Systematische Ansatz trägt sowohl zur Eindeutigkeit der Syntaktik bei auch wird er wichtig für die Modelgetriebene Entwicklung und den aus ihr resultierenden Techniken der Modell und Code Transformationen.
 
-![OO-historie](images/500px-MetamodelHierarchy_de.png)
+![mm](images/500px-MetamodelHierarchy_de.png)
+
+M3 – MOF das “Meta object facility” ist stark ein begrenztes Model das von der OMG spezifiziert ist. Es enthält nur wenige Modelelement die jedoch geeignet sind Modelle zu spezifizieren.
+
+![MOF](images/MOF_Metamodel_144dpi.jpg)
+
+M2 – Mit dem M3, dem MOF, wird nun das Modell der UML beschrieben.
+M1 – In UML wird das zu entwerfende Modell beschreiben.
+M0 – Ist die Software selber.
 
 
 
