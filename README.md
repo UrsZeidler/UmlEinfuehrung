@@ -28,7 +28,9 @@ M3 – MOF das “Meta object facility” ist stark ein begrenztes Model das von der O
 ![MOF](images/MOF_Metamodel_144dpi.jpg)
 
 M2 – Mit dem M3, dem MOF, wird nun das Modell der UML beschrieben.
+
 M1 – In UML wird das zu entwerfende Modell beschreiben.
+
 M0 – Ist die Software selber.
 
 
