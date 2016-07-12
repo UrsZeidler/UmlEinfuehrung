@@ -27,11 +27,11 @@ M3 – MOF das “Meta object facility” ist stark ein begrenztes Model das von der O
 
 ![MOF](images/MOF_Metamodel_144dpi.jpg)
 
-M2 – Mit dem M3, dem MOF, wird nun das Modell der UML beschrieben.
+M2 – Mit dem M3, dem MOF, wird nun das Modell der UML beschrieben. Damit ist die Spezifikation der UML selbst auf eine solide und nachvollziehbare Basis gestellt.
 
 M1 – In UML wird das zu entwerfende Modell beschreiben.
 
-M0 – Ist die Software selber.
+M0 – Ist die Software selber. Die in dem Modell (M1) beschriebenen Entitäten (Klassen und deren Beziehungen) sind als Instanzen in der laufenden Software vorhanden. Sie sind jedoch nur ein Modell der Wirklichkeit und nicht die Wirklichkeit selbst. Als Beispiel ist der Kunde in einem CRM nicht der Kunde selber sondern nur eine Abbildung des Kunden mit den für den Anwendungsfall relevanten Attributen.
 
 
 
@@ -83,7 +83,7 @@ Aufgabe der Verhaltensorientieren Diagramme ist die Beschreibung der Verhaltensa
 ## Software die UML unterstützt
 
 Papyrus (Eclipse Plugin) https://eclipse.org/papyrus/
-Eclipse ist eine Plattform nicht nur zur einfachen Java Entwicklung, unter dem Dach der Eclipse Foundation gibt es eine Menge Projekte die sich mit der Modellierung beschäftigen. (https://eclipse.org/modeling/) Hier ist besonders das Acceleo Projekt (http://www.eclipse.org/acceleo/), ein auf dem MTL (Model to Text Language) basierender Codegenerator und ATL (http://www.eclipse.org/atl/) eine model Transformations Sprache hervor zu heben.
+Eclipse ist eine Plattform nicht nur zur einfachen Java Entwicklung, unter dem Dach der Eclipse Foundation gibt es eine Menge Projekte die sich mit der Modellierung beschäftigen. (https://eclipse.org/modeling/) Hier ist besonders das Acceleo Projekt (http://www.eclipse.org/acceleo/), ein auf dem MTL (Model to Text Language) basierender Codegenerator und ATL (http://www.eclipse.org/atl/) eine Model Transformations Sprache hervor zu heben.
 
 
 ----
