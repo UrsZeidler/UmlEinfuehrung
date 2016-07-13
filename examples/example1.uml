@@ -40,4 +40,53 @@ Es ist eine Physikalische Komponente.</body>
       </nestedNode>
     </packagedElement>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_fEPk8EjfEea60OKl0_Mt4w" name="component">
+    <packagedElement xmi:type="uml:Component" xmi:id="_lnLtgEjfEea60OKl0_Mt4w" name="Component1">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_npPr4EjfEea60OKl0_Mt4w" name="Port1" aggregation="composite">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_3l7yEEjfEea60OKl0_Mt4w" name="Port2" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_0kjrwEjfEea60OKl0_Mt4w" client="_lnLtgEjfEea60OKl0_Mt4w" supplier="_zEBtIEjfEea60OKl0_Mt4w" contract="_zEBtIEjfEea60OKl0_Mt4w"/>
+      <packagedElement xmi:type="uml:Component" xmi:id="_kRkI8EjgEea60OKl0_Mt4w" name="Component1">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_pGsr4EjgEea60OKl0_Mt4w" name="Port1" aggregation="composite"/>
+      </packagedElement>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Component" xmi:id="_mhwfYEjfEea60OKl0_Mt4w" name="Component2">
+      <generalization xmi:type="uml:Generalization" xmi:id="_nXlpQEjhEea60OKl0_Mt4w" general="_lnLtgEjfEea60OKl0_Mt4w"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_rP30UEjfEea60OKl0_Mt4w" name="Port1" aggregation="composite"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_zEBtIEjfEea60OKl0_Mt4w" name="Interface1">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_27lYEEjgEea60OKl0_Mt4w" name="Attribute1"/>
+      <ownedReception xmi:type="uml:Reception" xmi:id="_1WUDYEjgEea60OKl0_Mt4w" name="Reception1"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_2T-lgEjgEea60OKl0_Mt4w" name="Operation1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_643tAEjgEea60OKl0_Mt4w" name="Interface2"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_65zrsEjhEea60OKl0_Mt4w" name="composite">
+    <packagedElement xmi:type="uml:Class" xmi:id="_KAD5IEjiEea60OKl0_Mt4w" name="Class1">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_O3aCkEjiEea60OKl0_Mt4w" name="Port1" aggregation="composite"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_L55IkEjiEea60OKl0_Mt4w" name="Class1"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_OHZh8EjiEea60OKl0_Mt4w" name="Class2"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:InformationItem" xmi:id="_Rdod8EjiEea60OKl0_Mt4w" name="InformationItem1"/>
+    <packagedElement xmi:type="uml:Collaboration" xmi:id="_ZMEwUEjiEea60OKl0_Mt4w" name="Collaboration1">
+      <collaborationUse xmi:type="uml:CollaborationUse" xmi:id="_jwXOcEjiEea60OKl0_Mt4w" name="CollaborationUse1"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_0C1XYEjiEea60OKl0_Mt4w" name="interactionOverview">
+    <packagedElement xmi:type="uml:Activity" xmi:id="_3KRCYEjiEea60OKl0_Mt4w" name="Activity1" node="_TsUtoEjjEea60OKl0_Mt4w _WBZuoEjjEea60OKl0_Mt4w _X50BwEjjEea60OKl0_Mt4w _h97yEEjjEea60OKl0_Mt4w">
+      <ownedBehavior xmi:type="uml:Interaction" xmi:id="_YHq3kEjjEea60OKl0_Mt4w" name="Interaction1">
+        <fragment xmi:type="uml:InteractionUse" xmi:id="_YHuh8EjjEea60OKl0_Mt4w" name="InteractionUse_Interaction1" refersTo="_YHq3kEjjEea60OKl0_Mt4w"/>
+      </ownedBehavior>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_rHf-oEjjEea60OKl0_Mt4w" target="_h97yEEjjEea60OKl0_Mt4w" source="_TsUtoEjjEea60OKl0_Mt4w"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_TsUtoEjjEea60OKl0_Mt4w" name="InitialNode1" outgoing="_rHf-oEjjEea60OKl0_Mt4w"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_WBZuoEjjEea60OKl0_Mt4w"/>
+      <node xmi:type="uml:CallBehaviorAction" xmi:id="_X50BwEjjEea60OKl0_Mt4w" name="CallBehaviorAction1" behavior="_YHq3kEjjEea60OKl0_Mt4w">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_YIFuUEjjEea60OKl0_Mt4w" source="org.eclipse.papyrus.uml.diagram.interactionoverview.callbehavioraction">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_YIFuUUjjEea60OKl0_Mt4w" key="type" value="snapshot"/>
+        </eAnnotations>
+      </node>
+      <node xmi:type="uml:DecisionNode" xmi:id="_h97yEEjjEea60OKl0_Mt4w" name="DecisionNode1" incoming="_rHf-oEjjEea60OKl0_Mt4w"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>

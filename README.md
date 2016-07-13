@@ -38,6 +38,9 @@ M0 – Ist die Software selber. Die in dem Modell (M1) beschriebenen Entitäten (Kl
 ## Gliederung der verschieden Diagrammtypen
 Für die Modellierung verschiedenen Aspekte der Softwareentwicklung eignen sich nicht alle Diagrammformen, deshalb stellt die UML verschieden Diagramme bereit diese einzelnen Aspekte zu fassen. Grob unterteilen sie sich in Strukturelle und Verhaltes orientierte Diagramme. 
 
+![diagramme](images/uml-25-diagrams.png)
+
+
 
 ### Struktur orientierte Diagramme
 
@@ -56,10 +59,15 @@ Das Packet Diagramm ist ein einfaches Diagramm mit nur einem elementaren Notatio
 
 Das Deployment Diagramm beschreibt die relevante IT Landschaft mit den verschieden Komponenten und ihren vorgesehenen Interaktionen.  
 
-![package](images/deployment.png)
+![deployment](images/deployment.png)
 
 
 #### das Klassendiagramm
+
+Das Klassendiagrmm beschreibt den Aufbau und die Beziehungen von Klassen. Es ist eines der gebräuchlisten Diagramme in der OO da es in einem Direkten Zusammenhang mit der Implementierung der Software steht.
+
+
+ 
 
 #### das Kompositionsstrukturdiagramm (auch: Montagediagramm)
 
