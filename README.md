@@ -52,6 +52,12 @@ Das Packet Diagramm ist ein einfaches Diagramm mit nur einem elementaren Notatio
 
 ![package](images/party-dao-package.png)
 
+#### das Verteilungsdiagramm (Deployment Diagramm)
+
+Das Deployment Diagramm beschreibt die relevante IT Landschaft mit den verschieden Komponenten und ihren vorgesehenen Interaktionen.  
+
+![package](images/deployment.png)
+
 
 #### das Klassendiagramm
 
@@ -59,7 +65,6 @@ Das Packet Diagramm ist ein einfaches Diagramm mit nur einem elementaren Notatio
 
 #### das Komponentendiagramm
 
-#### das Verteilungsdiagramm
 
 #### das Objektdiagramm
 
@@ -103,6 +108,15 @@ Aufgabe der Verhaltensorientieren Diagramme ist die Beschreibung der Verhaltensa
 
 Papyrus (Eclipse Plugin) https://eclipse.org/papyrus/
 Eclipse ist eine Plattform nicht nur zur einfachen Java Entwicklung, unter dem Dach der Eclipse Foundation gibt es eine Menge Projekte die sich mit der Modellierung beschäftigen. (https://eclipse.org/modeling/) Hier ist besonders das Acceleo Projekt (http://www.eclipse.org/acceleo/), ein auf dem MTL (Model to Text Language) basierender Codegenerator und ATL (http://www.eclipse.org/atl/) eine Model Transformations Sprache hervor zu heben.
+
+
+## Weiterführende Quellen
+
+http://www.uml-diagrams.org
+
+http://www.torsten-horn.de/techdocs/uml.htm
+
+
 
 
 ----

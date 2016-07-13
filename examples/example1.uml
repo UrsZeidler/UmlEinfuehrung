@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_stXjgEjTEea60OKl0_Mt4w" name="examples">
+  <packagedElement xmi:type="uml:Package" xmi:id="_PAQ9QEjaEea60OKl0_Mt4w" name="deployment">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_efuuMEjVEea60OKl0_Mt4w" annotatedElement="_3biWYEjTEea60OKl0_Mt4w">
+      <body>Ein Device stellt ein Geräd in der IT landschaft dar.&#xD;
+Es ist eine Physikalische Komponente.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="__sTAwEjVEea60OKl0_Mt4w" annotatedElement="_HBE18EjWEea60OKl0_Mt4w">
+      <body>Eine Node ist ein &quot;deployment&quot; target.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_9JgzkEjYEea60OKl0_Mt4w" annotatedElement="_F-61YEjWEea60OKl0_Mt4w">
+      <body>Ein Artefakt kasnn eine installierbare Software Komponente sein.&#xD;
+</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_cuWTUEjZEea60OKl0_Mt4w" annotatedElement="_1naGUEjTEea60OKl0_Mt4w">
+      <body>Eine Execution Environment  stellt eine laufzeit Umgebung bereit in der Software komponenten arbeiten.&#xD;
+</body>
+    </ownedComment>
+    <packageImport xmi:type="uml:PackageImport" xmi:id="_tAJ8oEjTEea60OKl0_Mt4w">
+      <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
+    </packageImport>
+    <packagedElement xmi:type="uml:Device" xmi:id="_3biWYEjTEea60OKl0_Mt4w" name="Device">
+      <nestedClassifier xmi:type="uml:ExecutionEnvironment" xmi:id="_1naGUEjTEea60OKl0_Mt4w" name="Java">
+        <nestedClassifier xmi:type="uml:Node" xmi:id="_HBE18EjWEea60OKl0_Mt4w" name="App-server">
+          <nestedClassifier xmi:type="uml:Artifact" xmi:id="_HmhFUEjWEea60OKl0_Mt4w" name="Software" fileName=""/>
+        </nestedClassifier>
+      </nestedClassifier>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Artifact" xmi:id="_F-61YEjWEea60OKl0_Mt4w" name="New Software" fileName=""/>
+    <packagedElement xmi:type="uml:CommunicationPath" xmi:id="_pH2G8EjWEea60OKl0_Mt4w" name="read/write data" memberEnd="_pH80oEjWEea60OKl0_Mt4w _pH9bsEjWEea60OKl0_Mt4w">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pH7mgEjWEea60OKl0_Mt4w" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pH7mgUjWEea60OKl0_Mt4w" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_pH9bsEjWEea60OKl0_Mt4w" name="db-server" type="_6KOxQEjTEea60OKl0_Mt4w" association="_pH2G8EjWEea60OKl0_Mt4w"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Device" xmi:id="_oqUykEjYEea60OKl0_Mt4w" name="DB-server">
+      <nestedNode xmi:type="uml:Node" xmi:id="_6KOxQEjTEea60OKl0_Mt4w" name="postgres">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_pH80oEjWEea60OKl0_Mt4w" name="app-server" type="_HBE18EjWEea60OKl0_Mt4w" association="_pH2G8EjWEea60OKl0_Mt4w"/>
+        <deployment xmi:type="uml:Deployment" xmi:id="_R88GkEjWEea60OKl0_Mt4w" client="_6KOxQEjTEea60OKl0_Mt4w" supplier="_F-61YEjWEea60OKl0_Mt4w _HBE18EjWEea60OKl0_Mt4w" deployedArtifact="_F-61YEjWEea60OKl0_Mt4w"/>
+      </nestedNode>
+    </packagedElement>
+  </packagedElement>
+</uml:Model>
