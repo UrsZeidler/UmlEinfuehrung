@@ -89,4 +89,60 @@ Es ist eine Physikalische Komponente.</body>
       <node xmi:type="uml:DecisionNode" xmi:id="_h97yEEjjEea60OKl0_Mt4w" name="DecisionNode1" incoming="_rHf-oEjjEea60OKl0_Mt4w"/>
     </packagedElement>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_GSoWQEpwEeaas7va1FMniA" name="class">
+    <ownedComment xmi:type="uml:Comment" xmi:id="_O3NJ8EpxEeaas7va1FMniA" annotatedElement="_RsbgEEpwEeaas7va1FMniA">
+      <body>Eine Klasse in UML referenziert direkt auf eine Klasse im Software System.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_yM5FIEpxEeaas7va1FMniA" annotatedElement="_VZ53YEpwEeaas7va1FMniA">
+      <body>Ein Attribut ist eine Eigenschaft der Klasse. Es besitzt einen Typen und eine sichbarkeit.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_EzAEoEpyEeaas7va1FMniA" annotatedElement="_RsbgEEpwEeaas7va1FMniA">
+      <body>Eine Operation definiert eine Methode der Klasse, sie kann input und output Parameter besitzen selbstverständlich auch eine sichtbarkeit.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_nyLkUEpyEeaas7va1FMniA" annotatedElement="_a7zHwEpyEeaas7va1FMniA">
+      <body>Eine Klasse kann die Eigenschaften und Methoden einer anderen Klasse Erben.&#xD;
+Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_FRNOIEpzEeaas7va1FMniA" annotatedElement="_AjVJwEpzEeaas7va1FMniA">
+      <body>Ein Interface ist eine benannte Sammlung von Methodensignaturen.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_ajSEoEpzEeaas7va1FMniA" annotatedElement="_XS9jYEpzEeaas7va1FMniA">
+      <body>Auch Schnittstellen können voneinander Erben.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_pFQgUEpzEeaas7va1FMniA" annotatedElement="_gMXNAEpzEeaas7va1FMniA">
+      <body>Eine Klasse die ein Interface &quot;realisiert&quot; implementiert alle im Interface definierten Methoden. Die realisierung einer Schnittstelle wird über einen gestrichelten Vererbungspfeil notiert.</body>
+    </ownedComment>
+    <packagedElement xmi:type="uml:Class" xmi:id="_RsbgEEpwEeaas7va1FMniA" name="Klasse">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_VZ53YEpwEeaas7va1FMniA" name="einAttribut">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+      </ownedAttribute>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_cEXkQEpwEeaas7va1FMniA" name="einAnderesAttribut" visibility="private">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
+        <defaultValue xmi:type="uml:LiteralString" xmi:id="_0gPdQEpwEeaas7va1FMniA" value="Ein default value."/>
+      </ownedAttribute>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_3LBogEpwEeaas7va1FMniA" name="eineOperation"/>
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_93QP8EpwEeaas7va1FMniA" name="operationMitParametern" visibility="protected">
+        <ownedParameter xmi:type="uml:Parameter" xmi:id="_EXaKQEpxEeaas7va1FMniA" name="einParameter">
+          <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Integer"/>
+        </ownedParameter>
+      </ownedOperation>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_IYMfIEpxEeaas7va1FMniA" name="AbstrakteKlasse" isAbstract="true">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_bjFKMEpyEeaas7va1FMniA" name="eignschaft1">
+        <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Boolean"/>
+      </ownedAttribute>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_a7zHwEpyEeaas7va1FMniA" name="Klasse2">
+      <generalization xmi:type="uml:Generalization" xmi:id="_luiRkEpyEeaas7va1FMniA" general="_IYMfIEpxEeaas7va1FMniA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_AjVJwEpzEeaas7va1FMniA" name="Schnittstelle">
+      <ownedOperation xmi:type="uml:Operation" xmi:id="_UAmawEpzEeaas7va1FMniA" name="Operation"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_XS9jYEpzEeaas7va1FMniA" name="Interface">
+      <generalization xmi:type="uml:Generalization" xmi:id="_ZfiIoEpzEeaas7va1FMniA" general="_AjVJwEpzEeaas7va1FMniA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_gMXNAEpzEeaas7va1FMniA" name="Klasse3">
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_hsVyAEpzEeaas7va1FMniA" client="_gMXNAEpzEeaas7va1FMniA" supplier="_AjVJwEpzEeaas7va1FMniA" contract="_AjVJwEpzEeaas7va1FMniA"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>

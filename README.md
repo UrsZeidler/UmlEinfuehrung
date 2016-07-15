@@ -64,7 +64,9 @@ Das Deployment Diagramm beschreibt die relevante IT Landschaft mit den verschied
 
 #### das Klassendiagramm
 
-Das Klassendiagrmm beschreibt den Aufbau und die Beziehungen von Klassen. Es ist eines der gebräuchlisten Diagramme in der OO da es in einem Direkten Zusammenhang mit der Implementierung der Software steht.
+Das Klassendiagrmm beschreibt den Aufbau und die Beziehungen von Klassen. Es ist eines der gebräuchlisten Diagramme in der OO da es in einem Direkten Zusammenhang mit der Implementierung der Software steht. Zentrale Elemente des Klassendiagramms sind die Klasse und das Interface. 
+
+![deployment](images/classDiagramm1.png)
 
 
  
