@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <uml:Model xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xmi:id="_stXjgEjTEea60OKl0_Mt4w" name="examples">
+  <ownedComment xmi:type="uml:Comment" xmi:id="_oW0UgEy5EeapqO9mGzZ_Mg">
+    <body>Das Instanz Diagramm stellt einzelne Objektinstanzen des Softwaresystems dar.</body>
+  </ownedComment>
   <packagedElement xmi:type="uml:Package" xmi:id="_PAQ9QEjaEea60OKl0_Mt4w" name="deployment">
     <ownedComment xmi:type="uml:Comment" xmi:id="_efuuMEjVEea60OKl0_Mt4w" annotatedElement="_3biWYEjTEea60OKl0_Mt4w">
       <body>Ein Device stellt ein Geräd in der IT landschaft dar.&#xD;
@@ -158,7 +161,9 @@ Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_hsVyAEpzEeaas7va1FMniA" client="_gMXNAEpzEeaas7va1FMniA" supplier="_AjVJwEpzEeaas7va1FMniA" contract="_AjVJwEpzEeaas7va1FMniA"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_JDeY8EyvEeapqO9mGzZ_Mg" name="Owner">
-      <ownedAttribute xmi:type="uml:Property" xmi:id="_Nah4wEyvEeapqO9mGzZ_Mg" name="child" type="_LVoo0EyvEeapqO9mGzZ_Mg" aggregation="composite" association="_NadnUEyvEeapqO9mGzZ_Mg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Nah4wEyvEeapqO9mGzZ_Mg" name="child" type="_LVoo0EyvEeapqO9mGzZ_Mg" aggregation="composite" association="_NadnUEyvEeapqO9mGzZ_Mg">
+        <qualifier xmi:type="uml:Property" xmi:id="_UomS4Ey4EeapqO9mGzZ_Mg" name="ttt"/>
+      </ownedAttribute>
       <ownedAttribute xmi:type="uml:Property" xmi:id="_WnYC0UyvEeapqO9mGzZ_Mg" name="notownedchild" type="_THI2QEyvEeapqO9mGzZ_Mg" aggregation="shared" association="_WnXbwEyvEeapqO9mGzZ_Mg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_LVoo0EyvEeapqO9mGzZ_Mg" name="Child"/>
@@ -192,5 +197,29 @@ Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</
       <ownedEnd xmi:type="uml:Property" xmi:id="_ca9VkUywEeapqO9mGzZ_Mg" name="class1" type="_DWGJ8EywEeapqO9mGzZ_Mg" association="_ca8HcEywEeapqO9mGzZ_Mg"/>
       <ownedEnd xmi:type="uml:Property" xmi:id="_ca9VkEywEeapqO9mGzZ_Mg" name="child" type="_LVoo0EyvEeapqO9mGzZ_Mg" association="_ca8HcEywEeapqO9mGzZ_Mg"/>
     </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_KiOKsEy2EeapqO9mGzZ_Mg" name="einExpemplar" classifier="_RsbgEEpwEeaas7va1FMniA">
+    <slot xmi:type="uml:Slot" xmi:id="_4yhucEy4EeapqO9mGzZ_Mg" definingFeature="_VZ53YEpwEeaas7va1FMniA">
+      <value xmi:type="uml:LiteralString" xmi:id="_-mWHMEy4EeapqO9mGzZ_Mg" value="Ein String Wert."/>
+    </slot>
+    <slot xmi:type="uml:Slot" xmi:id="_RknvEEy5EeapqO9mGzZ_Mg" definingFeature="_cEXkQEpwEeaas7va1FMniA">
+      <value xmi:type="uml:LiteralString" xmi:id="_hYyycEy5EeapqO9mGzZ_Mg" value="Ein weiterer String Wert."/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_C5jeQEy4EeapqO9mGzZ_Mg" name="aOwner" classifier="_JDeY8EyvEeapqO9mGzZ_Mg">
+    <slot xmi:type="uml:Slot" xmi:id="_x5YFUUy4EeapqO9mGzZ_Mg" definingFeature="_Nah4wEyvEeapqO9mGzZ_Mg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_x5YFUky4EeapqO9mGzZ_Mg" name="InstanceValue1" type="_LVoo0EyvEeapqO9mGzZ_Mg" instance="_GKYV0Ey4EeapqO9mGzZ_Mg"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_GKYV0Ey4EeapqO9mGzZ_Mg" name="aChild" classifier="_LVoo0EyvEeapqO9mGzZ_Mg"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_nCIO8Ey4EeapqO9mGzZ_Mg" name="noChild" classifier="_THI2QEyvEeapqO9mGzZ_Mg"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_wMoPoEy4EeapqO9mGzZ_Mg" name="InstanceSpecification1" classifier="_NadnUEyvEeapqO9mGzZ_Mg">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_x5YFUEy4EeapqO9mGzZ_Mg" source="InstanceEnd" references="_GKYV0Ey4EeapqO9mGzZ_Mg _C5jeQEy4EeapqO9mGzZ_Mg"/>
+    <slot xmi:type="uml:Slot" xmi:id="_x5YsYEy4EeapqO9mGzZ_Mg" definingFeature="_Nah4wUyvEeapqO9mGzZ_Mg">
+      <value xmi:type="uml:InstanceValue" xmi:id="_x5YsYUy4EeapqO9mGzZ_Mg" name="InstanceValue1" type="_JDeY8EyvEeapqO9mGzZ_Mg" instance="_C5jeQEy4EeapqO9mGzZ_Mg"/>
+    </slot>
+  </packagedElement>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_2G-HIEy4EeapqO9mGzZ_Mg" name="InstanceSpecification2">
+    <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2gh2oEy4EeapqO9mGzZ_Mg" source="InstanceEnd" references="_C5jeQEy4EeapqO9mGzZ_Mg _nCIO8Ey4EeapqO9mGzZ_Mg"/>
   </packagedElement>
 </uml:Model>

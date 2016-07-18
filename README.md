@@ -73,13 +73,18 @@ Klassen sind Typen. Klassen können von anderen Klassen Erben, damit drückt sich 
 ![class2](images/classDiagrammAss.png)
  
 Beziehungen von Klassen zueinander werden als Assoziationen bezeichnet. Assoziationen können gerichtet sein, d.h. man kann von einer Instanz A zu einer Instanz Z „navigieren“, sie können etwas über den Lebens Zyklus der Kind Objekte aussagen(Komposition bedeutet das die Kinder mit dem Elternobjekt sterben, Shared das ihr Lebenszyklus unabhängig vom Elternobjekt ist).
+#### das Objektdiagramm
+
+Im Objekt Diagramm werden erstellte Exemplare der Klassen dargestellt. Die im Objekt Diagramm werden Instanzen von Klassen mit ihren Attribut werten dargestellt. 
+
+![instance](images/instanceDiagramm.png)
+
  
 #### das Kompositionsstrukturdiagramm (auch: Montagediagramm)
 
 #### das Komponentendiagramm
 
 
-#### das Objektdiagramm
 
 #### das Profildiagramm
 
@@ -115,6 +120,8 @@ Aufgabe der Verhaltensorientieren Diagramme ist die Beschreibung der Verhaltensa
 
 
 ## MDE/MDA (Model getriebene Entwicklung)
+
+Die Modellgetriebene Entwicklung unterstützt die Modelierung der Software dahingehen als es möglich ist die Modelle als Vorlagen für Textgeneratoren zu benutzen die dann z.B. Quelltext Generieren.
 
 
 ## Software die UML unterstützt
