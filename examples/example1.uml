@@ -49,14 +49,25 @@ Es ist eine Physikalische Komponente.</body>
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_3l7yEEjfEea60OKl0_Mt4w" name="Port2" aggregation="composite"/>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_oi4oUEy-EeapqO9mGzZ_Mg" name="Connector1">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ojBLMEy-EeapqO9mGzZ_Mg" role="_pGsr4EjgEea60OKl0_Mt4w"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_ojBLMUy-EeapqO9mGzZ_Mg" role="_3l7yEEjfEea60OKl0_Mt4w"/>
+      </ownedConnector>
+      <ownedConnector xmi:type="uml:Connector" xmi:id="_T9cG8EzBEeapqO9mGzZ_Mg" name="Connector2">
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_T9cuAEzBEeapqO9mGzZ_Mg" role="_SZtDUEzBEeapqO9mGzZ_Mg"/>
+        <end xmi:type="uml:ConnectorEnd" xmi:id="_T9cuAUzBEeapqO9mGzZ_Mg" role="_npPr4EjfEea60OKl0_Mt4w"/>
+      </ownedConnector>
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_0kjrwEjfEea60OKl0_Mt4w" client="_lnLtgEjfEea60OKl0_Mt4w" supplier="_zEBtIEjfEea60OKl0_Mt4w" contract="_zEBtIEjfEea60OKl0_Mt4w"/>
       <packagedElement xmi:type="uml:Component" xmi:id="_kRkI8EjgEea60OKl0_Mt4w" name="Component1">
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_pGsr4EjgEea60OKl0_Mt4w" name="Port1" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_pGsr4EjgEea60OKl0_Mt4w" name="Port1" type="_tmmH4EzAEeapqO9mGzZ_Mg" aggregation="composite" isDerived="true" isDerivedUnion="true" isBehavior="true" isConjugated="true"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_SZtDUEzBEeapqO9mGzZ_Mg" name="Port2" aggregation="composite"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Component" xmi:id="_mhwfYEjfEea60OKl0_Mt4w" name="Component2">
       <generalization xmi:type="uml:Generalization" xmi:id="_nXlpQEjhEea60OKl0_Mt4w" general="_lnLtgEjfEea60OKl0_Mt4w"/>
       <ownedAttribute xmi:type="uml:Port" xmi:id="_rP30UEjfEea60OKl0_Mt4w" name="Port1" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Port" xmi:id="_laWfMEzAEeapqO9mGzZ_Mg" name="Port2" aggregation="composite"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_JUjcskzBEeapqO9mGzZ_Mg" name="component3" type="_98KBEEzAEeapqO9mGzZ_Mg"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_zEBtIEjfEea60OKl0_Mt4w" name="Interface1">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_27lYEEjgEea60OKl0_Mt4w" name="Attribute1"/>
@@ -64,6 +75,11 @@ Es ist eine Physikalische Komponente.</body>
       <ownedOperation xmi:type="uml:Operation" xmi:id="_2T-lgEjgEea60OKl0_Mt4w" name="Operation1"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Interface" xmi:id="_643tAEjgEea60OKl0_Mt4w" name="Interface2"/>
+    <packagedElement xmi:type="uml:Interface" xmi:id="_tmmH4EzAEeapqO9mGzZ_Mg" name="Interface3"/>
+    <packagedElement xmi:type="uml:Component" xmi:id="_98KBEEzAEeapqO9mGzZ_Mg" name="Component3">
+      <ownedAttribute xmi:type="uml:Port" xmi:id="__XL0oEzAEeapqO9mGzZ_Mg" name="Port1" type="_tmmH4EzAEeapqO9mGzZ_Mg" aggregation="composite"/>
+      <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_gScUwEzBEeapqO9mGzZ_Mg" client="_98KBEEzAEeapqO9mGzZ_Mg" supplier="_tmmH4EzAEeapqO9mGzZ_Mg" contract="_tmmH4EzAEeapqO9mGzZ_Mg"/>
+    </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_65zrsEjhEea60OKl0_Mt4w" name="composite">
     <packagedElement xmi:type="uml:Class" xmi:id="_KAD5IEjiEea60OKl0_Mt4w" name="Class1">

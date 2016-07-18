@@ -84,7 +84,9 @@ Im Objekt Diagramm werden erstellte Exemplare der Klassen dargestellt. Die im Ob
 
 #### das Komponentendiagramm
 
+Das Komponeten Diagramm beschreibt das Software System in einer groben Granularität, es beschreibt die Struktur der Interaktionen der verschiedenen Komponeten miteinander. Unter einer Komponete versteht man die Zusammenfassung einer Funktionalität. 
 
+![profil](images/component-diagram-overview.png)
 
 #### das Profildiagramm
 
