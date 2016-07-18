@@ -112,6 +112,19 @@ Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</
     <ownedComment xmi:type="uml:Comment" xmi:id="_pFQgUEpzEeaas7va1FMniA" annotatedElement="_gMXNAEpzEeaas7va1FMniA">
       <body>Eine Klasse die ein Interface &quot;realisiert&quot; implementiert alle im Interface definierten Methoden. Die realisierung einer Schnittstelle wird über einen gestrichelten Vererbungspfeil notiert.</body>
     </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_kv9HEEyvEeapqO9mGzZ_Mg" annotatedElement="_NadnUEyvEeapqO9mGzZ_Mg">
+      <body>Eine Assiozation, hier 'containment'.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_x2WVkEyvEeapqO9mGzZ_Mg" annotatedElement="_WnXbwEyvEeapqO9mGzZ_Mg">
+      <body>Eine Assiozation, hier 'shared'.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_t74OoEywEeapqO9mGzZ_Mg" annotatedElement="_ca8HcEywEeapqO9mGzZ_Mg _FHOwYEywEeapqO9mGzZ_Mg">
+      <body>Die Navigierbarkeit ist definiert über einen Pfeil.</body>
+    </ownedComment>
+    <ownedComment xmi:type="uml:Comment" xmi:id="_4r1xQEywEeapqO9mGzZ_Mg" annotatedElement="_FHOwYEywEeapqO9mGzZ_Mg">
+      <body>Eine Assoziations Klasse drückt die Assosiation aus.&#xD;
+</body>
+    </ownedComment>
     <packagedElement xmi:type="uml:Class" xmi:id="_RsbgEEpwEeaas7va1FMniA" name="Klasse">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_VZ53YEpwEeaas7va1FMniA" name="einAttribut">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
@@ -143,6 +156,41 @@ Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</
     </packagedElement>
     <packagedElement xmi:type="uml:Class" xmi:id="_gMXNAEpzEeaas7va1FMniA" name="Klasse3">
       <interfaceRealization xmi:type="uml:InterfaceRealization" xmi:id="_hsVyAEpzEeaas7va1FMniA" client="_gMXNAEpzEeaas7va1FMniA" supplier="_AjVJwEpzEeaas7va1FMniA" contract="_AjVJwEpzEeaas7va1FMniA"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_JDeY8EyvEeapqO9mGzZ_Mg" name="Owner">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_Nah4wEyvEeapqO9mGzZ_Mg" name="child" type="_LVoo0EyvEeapqO9mGzZ_Mg" aggregation="composite" association="_NadnUEyvEeapqO9mGzZ_Mg"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_WnYC0UyvEeapqO9mGzZ_Mg" name="notownedchild" type="_THI2QEyvEeapqO9mGzZ_Mg" aggregation="shared" association="_WnXbwEyvEeapqO9mGzZ_Mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_LVoo0EyvEeapqO9mGzZ_Mg" name="Child"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_NadnUEyvEeapqO9mGzZ_Mg" memberEnd="_Nah4wEyvEeapqO9mGzZ_Mg _Nah4wUyvEeapqO9mGzZ_Mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NagDkEyvEeapqO9mGzZ_Mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NagDkUyvEeapqO9mGzZ_Mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_Nah4wUyvEeapqO9mGzZ_Mg" name="owner" type="_JDeY8EyvEeapqO9mGzZ_Mg" association="_NadnUEyvEeapqO9mGzZ_Mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_THI2QEyvEeapqO9mGzZ_Mg" name="notOwnedChild"/>
+    <packagedElement xmi:type="uml:Association" xmi:id="_WnXbwEyvEeapqO9mGzZ_Mg" memberEnd="_WnYC0UyvEeapqO9mGzZ_Mg _WnYC0kyvEeapqO9mGzZ_Mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WnXbwUyvEeapqO9mGzZ_Mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WnYC0EyvEeapqO9mGzZ_Mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_WnYC0kyvEeapqO9mGzZ_Mg" name="owner" type="_JDeY8EyvEeapqO9mGzZ_Mg" association="_WnXbwEyvEeapqO9mGzZ_Mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_DWGJ8EywEeapqO9mGzZ_Mg" name="Class1">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_FHPXckywEeapqO9mGzZ_Mg" name="class2" type="_ES2GEEywEeapqO9mGzZ_Mg" association="_FHOwYEywEeapqO9mGzZ_Mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Class" xmi:id="_ES2GEEywEeapqO9mGzZ_Mg" name="Class2"/>
+    <packagedElement xmi:type="uml:AssociationClass" xmi:id="_FHOwYEywEeapqO9mGzZ_Mg" name="AssociationClass1" memberEnd="_FHPXckywEeapqO9mGzZ_Mg _FHPXc0ywEeapqO9mGzZ_Mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FHPXcEywEeapqO9mGzZ_Mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FHPXcUywEeapqO9mGzZ_Mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_FHPXc0ywEeapqO9mGzZ_Mg" name="class1" type="_DWGJ8EywEeapqO9mGzZ_Mg" association="_FHOwYEywEeapqO9mGzZ_Mg"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_ca8HcEywEeapqO9mGzZ_Mg" memberEnd="_ca9VkEywEeapqO9mGzZ_Mg _ca9VkUywEeapqO9mGzZ_Mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ca8ugEywEeapqO9mGzZ_Mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ca8ugUywEeapqO9mGzZ_Mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ca9VkUywEeapqO9mGzZ_Mg" name="class1" type="_DWGJ8EywEeapqO9mGzZ_Mg" association="_ca8HcEywEeapqO9mGzZ_Mg"/>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_ca9VkEywEeapqO9mGzZ_Mg" name="child" type="_LVoo0EyvEeapqO9mGzZ_Mg" association="_ca8HcEywEeapqO9mGzZ_Mg"/>
     </packagedElement>
   </packagedElement>
 </uml:Model>

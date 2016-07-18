@@ -66,10 +66,13 @@ Das Deployment Diagramm beschreibt die relevante IT Landschaft mit den verschied
 
 Das Klassendiagrmm beschreibt den Aufbau und die Beziehungen von Klassen. Es ist eines der gebräuchlisten Diagramme in der OO da es in einem Direkten Zusammenhang mit der Implementierung der Software steht. Zentrale Elemente des Klassendiagramms sind die Klasse und das Interface. 
 
-![deployment](images/classDiagramm1.png)
+![class1](images/classDiagramm1.png)
 
+Klassen sind Typen. Klassen können von anderen Klassen Erben, damit drückt sich ein X ist ein Y aus. Interfaces sind ebenfalls Typen. Interfaces können einander erweitern, ein anderes Wort für Erben. Und ein Interface kann von einer Klasse implementiert werden. Damit ist die Klasse auch den Type den das Interface darstellt.
 
+![class2](images/classDiagrammAss.png)
  
+
 
 #### das Kompositionsstrukturdiagramm (auch: Montagediagramm)
 
