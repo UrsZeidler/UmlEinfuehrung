@@ -72,8 +72,8 @@ Klassen sind Typen. Klassen können von anderen Klassen Erben, damit drückt sich 
 
 ![class2](images/classDiagrammAss.png)
  
-
-
+Beziehungen von Klassen zueinander werden als Assoziationen bezeichnet. Assoziationen können gerichtet sein, d.h. man kann von einer Instanz A zu einer Instanz Z „navigieren“, sie können etwas über den Lebens Zyklus der Kind Objekte aussagen(Komposition bedeutet das die Kinder mit dem Elternobjekt sterben, Shared das ihr Lebenszyklus unabhängig vom Elternobjekt ist).
+ 
 #### das Kompositionsstrukturdiagramm (auch: Montagediagramm)
 
 #### das Komponentendiagramm
