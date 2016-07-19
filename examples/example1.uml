@@ -85,11 +85,19 @@ Es ist eine Physikalische Komponente.</body>
     <packagedElement xmi:type="uml:Class" xmi:id="_KAD5IEjiEea60OKl0_Mt4w" name="Class1">
       <ownedAttribute xmi:type="uml:Port" xmi:id="_O3aCkEjiEea60OKl0_Mt4w" name="Port1" aggregation="composite"/>
       <nestedClassifier xmi:type="uml:Class" xmi:id="_L55IkEjiEea60OKl0_Mt4w" name="Class1"/>
-      <nestedClassifier xmi:type="uml:Class" xmi:id="_OHZh8EjiEea60OKl0_Mt4w" name="Class2"/>
+      <nestedClassifier xmi:type="uml:Class" xmi:id="_OHZh8EjiEea60OKl0_Mt4w" name="Class2">
+        <ownedAttribute xmi:type="uml:Property" xmi:id="_BVjdcEzPEeapqO9mGzZ_Mg" name="class1" type="_L55IkEjiEea60OKl0_Mt4w" association="_BVhoQEzPEeapqO9mGzZ_Mg"/>
+      </nestedClassifier>
     </packagedElement>
     <packagedElement xmi:type="uml:InformationItem" xmi:id="_Rdod8EjiEea60OKl0_Mt4w" name="InformationItem1"/>
     <packagedElement xmi:type="uml:Collaboration" xmi:id="_ZMEwUEjiEea60OKl0_Mt4w" name="Collaboration1">
       <collaborationUse xmi:type="uml:CollaborationUse" xmi:id="_jwXOcEjiEea60OKl0_Mt4w" name="CollaborationUse1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Association" xmi:id="_BVhoQEzPEeapqO9mGzZ_Mg" memberEnd="_BVjdcEzPEeapqO9mGzZ_Mg _BVjdcUzPEeapqO9mGzZ_Mg">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BVi2YEzPEeapqO9mGzZ_Mg" source="org.eclipse.papyrus">
+        <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BVi2YUzPEeapqO9mGzZ_Mg" key="nature" value="UML_Nature"/>
+      </eAnnotations>
+      <ownedEnd xmi:type="uml:Property" xmi:id="_BVjdcUzPEeapqO9mGzZ_Mg" name="class2" type="_OHZh8EjiEea60OKl0_Mt4w" association="_BVhoQEzPEeapqO9mGzZ_Mg"/>
     </packagedElement>
   </packagedElement>
   <packagedElement xmi:type="uml:Package" xmi:id="_0C1XYEjiEea60OKl0_Mt4w" name="interactionOverview">
@@ -237,5 +245,67 @@ Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</
   </packagedElement>
   <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_2G-HIEy4EeapqO9mGzZ_Mg" name="InstanceSpecification2">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2gh2oEy4EeapqO9mGzZ_Mg" source="InstanceEnd" references="_C5jeQEy4EeapqO9mGzZ_Mg _nCIO8Ey4EeapqO9mGzZ_Mg"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Activity" xmi:id="_QHfZ8E2OEeaT74V2aRvcCA" name="Projektplanung" node="_M33m0E2PEeaT74V2aRvcCA _OWdrwE2PEeaT74V2aRvcCA _SeDMME2PEeaT74V2aRvcCA _ijb7YE2PEeaT74V2aRvcCA _DDshkE2QEeaT74V2aRvcCA _KBmH0E2QEeaT74V2aRvcCA _WRd-AE2QEeaT74V2aRvcCA _YpmTAE2QEeaT74V2aRvcCA _a3lNgE2QEeaT74V2aRvcCA _5leeME2QEeaT74V2aRvcCA _9vWdoE2QEeaT74V2aRvcCA _Y0CL8E2REeaT74V2aRvcCA _bIzD4E2REeaT74V2aRvcCA _OFDrUE2SEeaT74V2aRvcCA _FLPGwE2ZEeaT74V2aRvcCA _bwnYME2ZEeaT74V2aRvcCA _RW5gcE2bEeaT74V2aRvcCA _x8KtAE2cEeaT74V2aRvcCA" group="_qgRrkE2OEeaT74V2aRvcCA _M33m0E2PEeaT74V2aRvcCA _OWdrwE2PEeaT74V2aRvcCA _xL3kYE2PEeaT74V2aRvcCA _w0E6AE2QEeaT74V2aRvcCA _LvIyQE2REeaT74V2aRvcCA _3EWv0E2REeaT74V2aRvcCA">
+    <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_GEKEEE2fEeaT74V2aRvcCA" name="DurationConstraint1">
+      <specification xmi:type="uml:DurationInterval" xmi:id="_GELSME2fEeaT74V2aRvcCA" name="constraintSpec"/>
+    </ownedRule>
+    <ownedBehavior xmi:type="uml:Activity" xmi:id="_L37XUE2QEeaT74V2aRvcCA" name="Activity1"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_nG77wE2PEeaT74V2aRvcCA" target="_ijb7YE2PEeaT74V2aRvcCA" source="_SeDMME2PEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_Eq2FkE2QEeaT74V2aRvcCA" target="_SeDMME2PEeaT74V2aRvcCA" source="_DDshkE2QEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f5C8QE2QEeaT74V2aRvcCA" target="_WRd-AE2QEeaT74V2aRvcCA" source="_KBmH0E2QEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gWSR4E2QEeaT74V2aRvcCA" target="_a3lNgE2QEeaT74V2aRvcCA" source="_WRd-AE2QEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_gxIa0E2QEeaT74V2aRvcCA" target="_YpmTAE2QEeaT74V2aRvcCA" source="_a3lNgE2QEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_pxkgkE2QEeaT74V2aRvcCA" target="_KBmH0E2QEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_IfuP8E2REeaT74V2aRvcCA" target="_9vWdoE2QEeaT74V2aRvcCA" source="_5leeME2QEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_fZA74E2REeaT74V2aRvcCA" target="_Y0CL8E2REeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_f8PkwE2REeaT74V2aRvcCA" target="_bIzD4E2REeaT74V2aRvcCA" source="_Y0CL8E2REeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_kkCAgE2XEeaT74V2aRvcCA" target="_KBmH0E2QEeaT74V2aRvcCA" source="_ijb7YE2PEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_L2_CgE2YEeaT74V2aRvcCA" target="_5leeME2QEeaT74V2aRvcCA" source="_YpmTAE2QEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_NFW6IE2YEeaT74V2aRvcCA" target="_Y0CL8E2REeaT74V2aRvcCA" source="_9vWdoE2QEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_OXwWIE2YEeaT74V2aRvcCA" target="_OFDrUE2SEeaT74V2aRvcCA" source="_RW5gcE2bEeaT74V2aRvcCA">
+      <guard xmi:type="uml:LiteralString" xmi:id="_RMJMgE2cEeaT74V2aRvcCA" value="bestanden"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_G2OB4E2ZEeaT74V2aRvcCA" target="_FLPGwE2ZEeaT74V2aRvcCA" source="_ijb7YE2PEeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_eHK_4E2ZEeaT74V2aRvcCA" target="_bwnYME2ZEeaT74V2aRvcCA" source="_bIzD4E2REeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_uNPZoE2bEeaT74V2aRvcCA" target="_RW5gcE2bEeaT74V2aRvcCA" source="_bIzD4E2REeaT74V2aRvcCA"/>
+    <edge xmi:type="uml:ControlFlow" xmi:id="_1Eas0E2bEeaT74V2aRvcCA" target="_9vWdoE2QEeaT74V2aRvcCA" source="_RW5gcE2bEeaT74V2aRvcCA">
+      <guard xmi:type="uml:LiteralString" xmi:id="_F4OoQE2cEeaT74V2aRvcCA" value="Nicht bestanden"/>
+    </edge>
+    <edge xmi:type="uml:ObjectFlow" xmi:id="_3TTw0E2cEeaT74V2aRvcCA" target="_x8KtAE2cEeaT74V2aRvcCA" source="_WRd-AE2QEeaT74V2aRvcCA"/>
+    <structuredNode xmi:type="uml:ExpansionRegion" xmi:id="_M33m0E2PEeaT74V2aRvcCA" name="ExpansionRegion1"/>
+    <structuredNode xmi:type="uml:StructuredActivityNode" xmi:id="_OWdrwE2PEeaT74V2aRvcCA" name="StructuredActivityNode1"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_qgRrkE2OEeaT74V2aRvcCA" name="Analyse" node="_SeDMME2PEeaT74V2aRvcCA _ijb7YE2PEeaT74V2aRvcCA _FLPGwE2ZEeaT74V2aRvcCA">
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_drLBYE2OEeaT74V2aRvcCA" name="Soll Konzept"/>
+      <subpartition xmi:type="uml:ActivityPartition" xmi:id="_a2mA8E2OEeaT74V2aRvcCA" name="Ist Analyse"/>
+    </group>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_xL3kYE2PEeaT74V2aRvcCA" name="Planungphase" node="_KBmH0E2QEeaT74V2aRvcCA _WRd-AE2QEeaT74V2aRvcCA _YpmTAE2QEeaT74V2aRvcCA _a3lNgE2QEeaT74V2aRvcCA _x8KtAE2cEeaT74V2aRvcCA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_w0E6AE2QEeaT74V2aRvcCA" name="Projektdurchführung" node="_5leeME2QEeaT74V2aRvcCA _9vWdoE2QEeaT74V2aRvcCA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_LvIyQE2REeaT74V2aRvcCA" name="Testphase" node="_Y0CL8E2REeaT74V2aRvcCA _bIzD4E2REeaT74V2aRvcCA _bwnYME2ZEeaT74V2aRvcCA"/>
+    <group xmi:type="uml:ActivityPartition" xmi:id="_3EWv0E2REeaT74V2aRvcCA" name="Projektabschluss" node="_OFDrUE2SEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_SeDMME2PEeaT74V2aRvcCA" name="Ist Analyse" incoming="_Eq2FkE2QEeaT74V2aRvcCA" outgoing="_nG77wE2PEeaT74V2aRvcCA" inPartition="_qgRrkE2OEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_ijb7YE2PEeaT74V2aRvcCA" name="Soll Konzept" incoming="_nG77wE2PEeaT74V2aRvcCA" outgoing="_kkCAgE2XEeaT74V2aRvcCA _G2OB4E2ZEeaT74V2aRvcCA" inPartition="_qgRrkE2OEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:InitialNode" xmi:id="_DDshkE2QEeaT74V2aRvcCA" outgoing="_Eq2FkE2QEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_KBmH0E2QEeaT74V2aRvcCA" name="Projektplan" incoming="_pxkgkE2QEeaT74V2aRvcCA _kkCAgE2XEeaT74V2aRvcCA" outgoing="_f5C8QE2QEeaT74V2aRvcCA" inPartition="_xL3kYE2PEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_WRd-AE2QEeaT74V2aRvcCA" name="Entwurf" incoming="_f5C8QE2QEeaT74V2aRvcCA" outgoing="_gWSR4E2QEeaT74V2aRvcCA _3TTw0E2cEeaT74V2aRvcCA" inPartition="_xL3kYE2PEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_YpmTAE2QEeaT74V2aRvcCA" name="Testkonzept" incoming="_gxIa0E2QEeaT74V2aRvcCA" outgoing="_L2_CgE2YEeaT74V2aRvcCA" inPartition="_xL3kYE2PEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_a3lNgE2QEeaT74V2aRvcCA" name="Algorithmen" incoming="_gWSR4E2QEeaT74V2aRvcCA" outgoing="_gxIa0E2QEeaT74V2aRvcCA" inPartition="_xL3kYE2PEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_5leeME2QEeaT74V2aRvcCA" name="Implementierung Algorithmen" incoming="_L2_CgE2YEeaT74V2aRvcCA" outgoing="_IfuP8E2REeaT74V2aRvcCA" inPartition="_w0E6AE2QEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_9vWdoE2QEeaT74V2aRvcCA" name="Implementierung Workflow" incoming="_IfuP8E2REeaT74V2aRvcCA _1Eas0E2bEeaT74V2aRvcCA" outgoing="_NFW6IE2YEeaT74V2aRvcCA" inPartition="_w0E6AE2QEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_Y0CL8E2REeaT74V2aRvcCA" name="Funktionstest" incoming="_fZA74E2REeaT74V2aRvcCA _NFW6IE2YEeaT74V2aRvcCA" outgoing="_f8PkwE2REeaT74V2aRvcCA" inPartition="_LvIyQE2REeaT74V2aRvcCA">
+      <handler xmi:type="uml:ExceptionHandler" xmi:id="_RSbM8E2XEeaT74V2aRvcCA"/>
+    </node>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_bIzD4E2REeaT74V2aRvcCA" name="Lasttest" incoming="_f8PkwE2REeaT74V2aRvcCA" outgoing="_eHK_4E2ZEeaT74V2aRvcCA _uNPZoE2bEeaT74V2aRvcCA" inPartition="_LvIyQE2REeaT74V2aRvcCA"/>
+    <node xmi:type="uml:OpaqueAction" xmi:id="_OFDrUE2SEeaT74V2aRvcCA" name="deployment" incoming="_OXwWIE2YEeaT74V2aRvcCA" inPartition="_3EWv0E2REeaT74V2aRvcCA"/>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_FLPGwE2ZEeaT74V2aRvcCA" name="Pflichtenheft" incoming="_G2OB4E2ZEeaT74V2aRvcCA" inPartition="_qgRrkE2OEeaT74V2aRvcCA">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_FLPGwU2ZEeaT74V2aRvcCA" value="1"/>
+    </node>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_bwnYME2ZEeaT74V2aRvcCA" name="Testprotokoll" incoming="_eHK_4E2ZEeaT74V2aRvcCA" inPartition="_LvIyQE2REeaT74V2aRvcCA">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_bwn_QE2ZEeaT74V2aRvcCA" value="1"/>
+    </node>
+    <node xmi:type="uml:DecisionNode" xmi:id="_RW5gcE2bEeaT74V2aRvcCA" incoming="_uNPZoE2bEeaT74V2aRvcCA" outgoing="_1Eas0E2bEeaT74V2aRvcCA _OXwWIE2YEeaT74V2aRvcCA"/>
+    <node xmi:type="uml:DataStoreNode" xmi:id="_x8KtAE2cEeaT74V2aRvcCA" name="Entwurfsdokumente" incoming="_3TTw0E2cEeaT74V2aRvcCA" inPartition="_xL3kYE2PEeaT74V2aRvcCA">
+      <upperBound xmi:type="uml:LiteralInteger" xmi:id="_x8LUEE2cEeaT74V2aRvcCA" value="1"/>
+    </node>
   </packagedElement>
 </uml:Model>

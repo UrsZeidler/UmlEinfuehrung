@@ -107,6 +107,8 @@ Aufgabe der Verhaltensorientieren Diagramme ist die Beschreibung der Verhaltensa
 
 #### das Aktivitätsdiagramm
 
+![profil](images/activity.png)
+
 #### das Anwendungsfalldiagramm (auch: Use-Case o. Nutzfalldiagramm genannt)
 
 #### das Interaktionsübersichtsdiagramm
