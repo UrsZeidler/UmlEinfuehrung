@@ -152,7 +152,7 @@ Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</
       <body>Eine Assoziations Klasse drückt die Assosiation aus.&#xD;
 </body>
     </ownedComment>
-    <packagedElement xmi:type="uml:Class" xmi:id="_RsbgEEpwEeaas7va1FMniA" name="Klasse">
+    <packagedElement xmi:type="uml:Class" xmi:id="_RsbgEEpwEeaas7va1FMniA" name="Klasse" useCase="_Cj66cE5CEeaMv_UmUKgItw">
       <ownedAttribute xmi:type="uml:Property" xmi:id="_VZ53YEpwEeaas7va1FMniA" name="einAttribut">
         <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#String"/>
       </ownedAttribute>
@@ -246,7 +246,7 @@ Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</
   <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_2G-HIEy4EeapqO9mGzZ_Mg" name="InstanceSpecification2">
     <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_2gh2oEy4EeapqO9mGzZ_Mg" source="InstanceEnd" references="_C5jeQEy4EeapqO9mGzZ_Mg _nCIO8Ey4EeapqO9mGzZ_Mg"/>
   </packagedElement>
-  <packagedElement xmi:type="uml:Activity" xmi:id="_QHfZ8E2OEeaT74V2aRvcCA" name="Projektplanung" node="_M33m0E2PEeaT74V2aRvcCA _OWdrwE2PEeaT74V2aRvcCA _SeDMME2PEeaT74V2aRvcCA _ijb7YE2PEeaT74V2aRvcCA _DDshkE2QEeaT74V2aRvcCA _KBmH0E2QEeaT74V2aRvcCA _WRd-AE2QEeaT74V2aRvcCA _YpmTAE2QEeaT74V2aRvcCA _a3lNgE2QEeaT74V2aRvcCA _5leeME2QEeaT74V2aRvcCA _9vWdoE2QEeaT74V2aRvcCA _Y0CL8E2REeaT74V2aRvcCA _bIzD4E2REeaT74V2aRvcCA _OFDrUE2SEeaT74V2aRvcCA _FLPGwE2ZEeaT74V2aRvcCA _bwnYME2ZEeaT74V2aRvcCA _RW5gcE2bEeaT74V2aRvcCA _x8KtAE2cEeaT74V2aRvcCA" group="_qgRrkE2OEeaT74V2aRvcCA _M33m0E2PEeaT74V2aRvcCA _OWdrwE2PEeaT74V2aRvcCA _xL3kYE2PEeaT74V2aRvcCA _w0E6AE2QEeaT74V2aRvcCA _LvIyQE2REeaT74V2aRvcCA _3EWv0E2REeaT74V2aRvcCA">
+  <packagedElement xmi:type="uml:Activity" xmi:id="_QHfZ8E2OEeaT74V2aRvcCA" name="Projektplanung Optimierung des whs Callflows" node="_M33m0E2PEeaT74V2aRvcCA _OWdrwE2PEeaT74V2aRvcCA _SeDMME2PEeaT74V2aRvcCA _ijb7YE2PEeaT74V2aRvcCA _DDshkE2QEeaT74V2aRvcCA _KBmH0E2QEeaT74V2aRvcCA _WRd-AE2QEeaT74V2aRvcCA _YpmTAE2QEeaT74V2aRvcCA _a3lNgE2QEeaT74V2aRvcCA _5leeME2QEeaT74V2aRvcCA _9vWdoE2QEeaT74V2aRvcCA _Y0CL8E2REeaT74V2aRvcCA _bIzD4E2REeaT74V2aRvcCA _OFDrUE2SEeaT74V2aRvcCA _FLPGwE2ZEeaT74V2aRvcCA _bwnYME2ZEeaT74V2aRvcCA _RW5gcE2bEeaT74V2aRvcCA _x8KtAE2cEeaT74V2aRvcCA" group="_qgRrkE2OEeaT74V2aRvcCA _M33m0E2PEeaT74V2aRvcCA _OWdrwE2PEeaT74V2aRvcCA _xL3kYE2PEeaT74V2aRvcCA _w0E6AE2QEeaT74V2aRvcCA _LvIyQE2REeaT74V2aRvcCA _3EWv0E2REeaT74V2aRvcCA">
     <ownedRule xmi:type="uml:DurationConstraint" xmi:id="_GEKEEE2fEeaT74V2aRvcCA" name="DurationConstraint1">
       <specification xmi:type="uml:DurationInterval" xmi:id="_GELSME2fEeaT74V2aRvcCA" name="constraintSpec"/>
     </ownedRule>
@@ -307,5 +307,51 @@ Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</
     <node xmi:type="uml:DataStoreNode" xmi:id="_x8KtAE2cEeaT74V2aRvcCA" name="Entwurfsdokumente" incoming="_3TTw0E2cEeaT74V2aRvcCA" inPartition="_xL3kYE2PEeaT74V2aRvcCA">
       <upperBound xmi:type="uml:LiteralInteger" xmi:id="_x8LUEE2cEeaT74V2aRvcCA" value="1"/>
     </node>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_mcpGsE5BEeaMv_UmUKgItw" name="use-case">
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_Cj66cE5CEeaMv_UmUKgItw" name="register" subject="_RsbgEEpwEeaas7va1FMniA">
+      <extensionPoint xmi:type="uml:ExtensionPoint" xmi:id="_KJfycE5HEeaMv_UmUKgItw" name="ExtensionPoint1"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_EZLL4E5CEeaMv_UmUKgItw" name="unregister"/>
+    <packagedElement xmi:type="uml:Actor" xmi:id="_PJtWQE5CEeaMv_UmUKgItw" name="customer"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_R1MFEE5CEeaMv_UmUKgItw" client="_PJtWQE5CEeaMv_UmUKgItw" supplier="_Cj66cE5CEeaMv_UmUKgItw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_S87JME5CEeaMv_UmUKgItw" client="_PJtWQE5CEeaMv_UmUKgItw" supplier="_EZLL4E5CEeaMv_UmUKgItw"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_WGgwUE5CEeaMv_UmUKgItw" name="login"/>
+    <packagedElement xmi:type="uml:Dependency" xmi:id="_ZdsukE5CEeaMv_UmUKgItw" client="_WGgwUE5CEeaMv_UmUKgItw" supplier="_Cj66cE5CEeaMv_UmUKgItw"/>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_cm-zsE5CEeaMv_UmUKgItw" client="_PJtWQE5CEeaMv_UmUKgItw" supplier="_WGgwUE5CEeaMv_UmUKgItw"/>
+    <packagedElement xmi:type="uml:UseCase" xmi:id="_GiEYwE5HEeaMv_UmUKgItw" name="Erweiterte Registrierung">
+      <generalization xmi:type="uml:Generalization" xmi:id="_MiFacE5HEeaMv_UmUKgItw" general="_Cj66cE5CEeaMv_UmUKgItw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Usage" xmi:id="_UrYc0E5HEeaMv_UmUKgItw" client="_PJtWQE5CEeaMv_UmUKgItw" supplier="_GiEYwE5HEeaMv_UmUKgItw"/>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_cxasoE5DEeaMv_UmUKgItw" name="sequence diagramm">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_jC3ckE5DEeaMv_UmUKgItw" name="Interaction1">
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_mecyoE5DEeaMv_UmUKgItw" name="Lifeline" coveredBy="_HuyK4E5EEeaMv_UmUKgItw _Huyx8U5EEeaMv_UmUKgItw _Huyx8E5EEeaMv_UmUKgItw _PXoyoE5EEeaMv_UmUKgItw"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_5YpLwE5DEeaMv_UmUKgItw" name="Lifeline0" coveredBy="_PXpZsE5EEeaMv_UmUKgItw"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_HuyK4E5EEeaMv_UmUKgItw" name="ActionExecSpecStart" covered="_mecyoE5DEeaMv_UmUKgItw" execution="_Huyx8E5EEeaMv_UmUKgItw"/>
+      <fragment xmi:type="uml:ActionExecutionSpecification" xmi:id="_Huyx8E5EEeaMv_UmUKgItw" name="ActionExecSpec" covered="_mecyoE5DEeaMv_UmUKgItw" finish="_Huyx8U5EEeaMv_UmUKgItw" start="_HuyK4E5EEeaMv_UmUKgItw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PXoyoE5EEeaMv_UmUKgItw" name="MessageSend" covered="_mecyoE5DEeaMv_UmUKgItw" message="_PXoLkE5EEeaMv_UmUKgItw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_PXpZsE5EEeaMv_UmUKgItw" name="MessageRecv" covered="_5YpLwE5DEeaMv_UmUKgItw" message="_PXoLkE5EEeaMv_UmUKgItw"/>
+      <fragment xmi:type="uml:ExecutionOccurrenceSpecification" xmi:id="_Huyx8U5EEeaMv_UmUKgItw" name="ActionExecSpecFinish" covered="_mecyoE5DEeaMv_UmUKgItw" execution="_Huyx8E5EEeaMv_UmUKgItw"/>
+      <message xmi:type="uml:Message" xmi:id="_PXoLkE5EEeaMv_UmUKgItw" name="Message" messageSort="createMessage" receiveEvent="_PXpZsE5EEeaMv_UmUKgItw" sendEvent="_PXoyoE5EEeaMv_UmUKgItw"/>
+    </packagedElement>
+  </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_ov0i4E5EEeaMv_UmUKgItw" name="state diagramm">
+    <packagedElement xmi:type="uml:StateMachine" xmi:id="_wxbB0E5EEeaMv_UmUKgItw" name="StateMachine1">
+      <region xmi:type="uml:Region" xmi:id="_xJgKoE5EEeaMv_UmUKgItw" name="Region1">
+        <transition xmi:type="uml:Transition" xmi:id="_8mRv8E5EEeaMv_UmUKgItw" source="_zznngE5EEeaMv_UmUKgItw" target="_4jAu0E5EEeaMv_UmUKgItw"/>
+        <transition xmi:type="uml:Transition" xmi:id="__XjkwE5EEeaMv_UmUKgItw" source="_4jAu0E5EEeaMv_UmUKgItw" target="_5Y9fYE5EEeaMv_UmUKgItw"/>
+        <transition xmi:type="uml:Transition" xmi:id="_NehfcE5FEeaMv_UmUKgItw" source="_5Y9fYE5EEeaMv_UmUKgItw" target="_CN9KIE5FEeaMv_UmUKgItw"/>
+        <transition xmi:type="uml:Transition" xmi:id="_OcKMYE5FEeaMv_UmUKgItw" source="_CN9KIE5FEeaMv_UmUKgItw" target="_DiCoME5FEeaMv_UmUKgItw"/>
+        <transition xmi:type="uml:Transition" xmi:id="_PzvDUE5FEeaMv_UmUKgItw" source="_DiCoME5FEeaMv_UmUKgItw" target="_ICWKoE5FEeaMv_UmUKgItw"/>
+        <transition xmi:type="uml:Transition" xmi:id="_m-zbwE5FEeaMv_UmUKgItw" source="_CN9KIE5FEeaMv_UmUKgItw" target="_5Y9fYE5EEeaMv_UmUKgItw"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_zznngE5EEeaMv_UmUKgItw"/>
+        <subvertex xmi:type="uml:State" xmi:id="_4jAu0E5EEeaMv_UmUKgItw" name="State1"/>
+        <subvertex xmi:type="uml:State" xmi:id="_5Y9fYE5EEeaMv_UmUKgItw" name="State2"/>
+        <subvertex xmi:type="uml:Pseudostate" xmi:id="_CN9KIE5FEeaMv_UmUKgItw" name="bedingung" kind="choice"/>
+        <subvertex xmi:type="uml:State" xmi:id="_DiCoME5FEeaMv_UmUKgItw" name="State3"/>
+        <subvertex xmi:type="uml:FinalState" xmi:id="_ICWKoE5FEeaMv_UmUKgItw"/>
+      </region>
+    </packagedElement>
   </packagedElement>
 </uml:Model>
