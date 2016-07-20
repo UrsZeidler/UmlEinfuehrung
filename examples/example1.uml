@@ -422,4 +422,34 @@ Diese Beziehung der Klassen wird über den &quot;Vererbunspfeil&quot; notiert.</
       </region>
     </packagedElement>
   </packagedElement>
+  <packagedElement xmi:type="uml:Package" xmi:id="_le18gE5TEeaMv_UmUKgItw" name="communication">
+    <packagedElement xmi:type="uml:Interaction" xmi:id="_pDMNAE5TEeaMv_UmUKgItw" name="Interaction1">
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_yv6xAU5TEeaMv_UmUKgItw" name="" type="_PJtWQE5CEeaMv_UmUKgItw"/>
+      <ownedAttribute xmi:type="uml:Property" xmi:id="_6G4-kE5TEeaMv_UmUKgItw" name="" type="_5qxqUE5TEeaMv_UmUKgItw"/>
+      <nestedClassifier xmi:type="uml:Actor" xmi:id="_5qxqUE5TEeaMv_UmUKgItw" name="Actor1"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_yv6xAE5TEeaMv_UmUKgItw" name="" represents="_yv6xAU5TEeaMv_UmUKgItw" coveredBy="_9xY6YE5TEeaMv_UmUKgItw"/>
+      <lifeline xmi:type="uml:Lifeline" xmi:id="_6G4XgE5TEeaMv_UmUKgItw" name="" represents="_6G4-kE5TEeaMv_UmUKgItw" coveredBy="_9xY6YU5TEeaMv_UmUKgItw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9xY6YE5TEeaMv_UmUKgItw" name="Message0Send0" covered="_yv6xAE5TEeaMv_UmUKgItw" message="_9wY00E5TEeaMv_UmUKgItw"/>
+      <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_9xY6YU5TEeaMv_UmUKgItw" name="Message0Recv0" covered="_6G4XgE5TEeaMv_UmUKgItw" message="_9wY00E5TEeaMv_UmUKgItw"/>
+      <message xmi:type="uml:Message" xmi:id="_9wY00E5TEeaMv_UmUKgItw" name="Message0" receiveEvent="_9xY6YU5TEeaMv_UmUKgItw" sendEvent="_9xY6YE5TEeaMv_UmUKgItw"/>
+    </packagedElement>
+    <packagedElement xmi:type="uml:Activity" xmi:id="_FH0VYE5UEeaMv_UmUKgItw" name="Activity1" node="_II79AE5UEeaMv_UmUKgItw _Iu37oE5UEeaMv_UmUKgItw _KI30cE5UEeaMv_UmUKgItw _OgU84E5UEeaMv_UmUKgItw _YSlhIE5UEeaMv_UmUKgItw _nOzBwE5UEeaMv_UmUKgItw _v9KgEE5UEeaMv_UmUKgItw _wpVpkE5UEeaMv_UmUKgItw" group="_Iu37oE5UEeaMv_UmUKgItw _YSlhIE5UEeaMv_UmUKgItw _nOzBwE5UEeaMv_UmUKgItw _v9KgEE5UEeaMv_UmUKgItw _wpVpkE5UEeaMv_UmUKgItw">
+      <ownedBehavior xmi:type="uml:Activity" xmi:id="_WsZmcE5UEeaMv_UmUKgItw" name="Activity1"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_T376wE5UEeaMv_UmUKgItw" target="_Iu37oE5UEeaMv_UmUKgItw" source="_KI30cE5UEeaMv_UmUKgItw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_bgHNEE5UEeaMv_UmUKgItw" target="_YSlhIE5UEeaMv_UmUKgItw" source="_II79AE5UEeaMv_UmUKgItw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_dC1kEE5UEeaMv_UmUKgItw" target="_KI30cE5UEeaMv_UmUKgItw" source="_YSlhIE5UEeaMv_UmUKgItw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_stvWsE5UEeaMv_UmUKgItw" target="_nOzBwE5UEeaMv_UmUKgItw" source="_KI30cE5UEeaMv_UmUKgItw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_t5oiEE5UEeaMv_UmUKgItw" target="_OgU84E5UEeaMv_UmUKgItw" source="_nOzBwE5UEeaMv_UmUKgItw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_yT_NgE5UEeaMv_UmUKgItw" target="_v9KgEE5UEeaMv_UmUKgItw" source="_OgU84E5UEeaMv_UmUKgItw"/>
+      <edge xmi:type="uml:ControlFlow" xmi:id="_y_MtsE5UEeaMv_UmUKgItw" target="_wpVpkE5UEeaMv_UmUKgItw" source="_OgU84E5UEeaMv_UmUKgItw"/>
+      <structuredNode xmi:type="uml:LoopNode" xmi:id="_Iu37oE5UEeaMv_UmUKgItw" name="LoopNode1" incoming="_T376wE5UEeaMv_UmUKgItw"/>
+      <structuredNode xmi:type="uml:SequenceNode" xmi:id="_YSlhIE5UEeaMv_UmUKgItw" name="SequenceNode1" incoming="_bgHNEE5UEeaMv_UmUKgItw" outgoing="_dC1kEE5UEeaMv_UmUKgItw"/>
+      <structuredNode xmi:type="uml:SequenceNode" xmi:id="_nOzBwE5UEeaMv_UmUKgItw" name="SequenceNode2" incoming="_stvWsE5UEeaMv_UmUKgItw" outgoing="_t5oiEE5UEeaMv_UmUKgItw"/>
+      <structuredNode xmi:type="uml:SequenceNode" xmi:id="_v9KgEE5UEeaMv_UmUKgItw" name="SequenceNode3" incoming="_yT_NgE5UEeaMv_UmUKgItw"/>
+      <structuredNode xmi:type="uml:SequenceNode" xmi:id="_wpVpkE5UEeaMv_UmUKgItw" name="SequenceNode4" incoming="_y_MtsE5UEeaMv_UmUKgItw"/>
+      <node xmi:type="uml:InitialNode" xmi:id="_II79AE5UEeaMv_UmUKgItw" name="InitialNode1" outgoing="_bgHNEE5UEeaMv_UmUKgItw"/>
+      <node xmi:type="uml:DecisionNode" xmi:id="_KI30cE5UEeaMv_UmUKgItw" name="DecisionNode1" incoming="_dC1kEE5UEeaMv_UmUKgItw" outgoing="_T376wE5UEeaMv_UmUKgItw _stvWsE5UEeaMv_UmUKgItw"/>
+      <node xmi:type="uml:ForkNode" xmi:id="_OgU84E5UEeaMv_UmUKgItw" name="ForkNode1" incoming="_t5oiEE5UEeaMv_UmUKgItw" outgoing="_yT_NgE5UEeaMv_UmUKgItw _y_MtsE5UEeaMv_UmUKgItw"/>
+    </packagedElement>
+  </packagedElement>
 </uml:Model>
