@@ -124,6 +124,13 @@ Das Zustandsdiagramm beschrieb eine Zustandsautomaten. Die Übergänge von einem z
 ![state](images/state-maschine.png)
 
 
+#### das Kommunikationsdiagramm
+
+Im Kommunikationsdiagramm werden die Nachrichten die die Komponenten einander schicken. Nachrichten sind Pfeile die mit einer Sequenznummer versehen werden können.
+
+![state](images/communication-diagram-overview.png)
+
+
 #### das Sequenzdiagramm
 
 Das Sequenz Diagramm beschreibt den Zeitlichen Ablauf einer Menge von beteiligten Objekten. 
@@ -134,8 +141,9 @@ Das Sequenz Diagramm beschreibt den Zeitlichen Ablauf einer Menge von beteiligte
 
 #### das Interaktionsübersichtsdiagramm
 
-#### das Kommunikationsdiagramm
+Das Interaktionsübersichts Diagramm ist eine Kombination des Sequenz und des Aktivitätsdiagramm.
 
+![state](images/communication-diagram-overview.png)
 
 
 #### das Zeitverlaufsdiagramm
