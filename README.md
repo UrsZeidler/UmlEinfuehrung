@@ -109,7 +109,7 @@ Aufgabe der Verhaltensorientieren Diagramme ist die Beschreibung der Verhaltensa
 
 Das Aktivitätsdiagramm stellt den Ablauf von Aktivitäten in einem Softwaresystem dar. Das Einsatzgebiet kann vom Logik Fluss einer Methode bis zu einem groben Überblick über die allgemeinen Aktivitäten.
 
-![profil](images/activity.png)
+![activity](images/activity.png)
 
 #### das Anwendungsfalldiagramm (auch: Use-Case o. Nutzfalldiagramm genannt)
 
@@ -119,16 +119,24 @@ Das use-case Diagramm ist eine gebräuchlich Form die Anwendungsfälle der Softwar
 
 #### das Zustandsdiagramm
 
-Das Zustandsdiagramm beschrieb eine Zustandsautomaten. Die übergänge von einem zu einem anderen Zustand können beschreiben werden.
+Das Zustandsdiagramm beschrieb eine Zustandsautomaten. Die Übergänge von einem zu einem anderen Zustand können beschreiben werden.
 
 ![state](images/state-maschine.png)
+
+
+#### das Sequenzdiagramm
+
+Das Sequenz Diagramm beschreibt den Zeitlichen Ablauf einer Menge von beteiligten Objekten. 
+
+![state](images/sequnce.png)
+
 
 
 #### das Interaktionsübersichtsdiagramm
 
 #### das Kommunikationsdiagramm
 
-#### das Sequenzdiagramm
+
 
 #### das Zeitverlaufsdiagramm
 
